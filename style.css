@@ -34,9 +34,20 @@ ul {
   padding-left: 10px;
 }
 
-#nav li {
+.lileft .li {
   list-style: none;
   float: left;
+}
+
+.lileft img {
+  display: block;
+  width: 30px; /* here put your width */
+  height: 30px; /* here put your height */
+}
+
+#nav li {
+  list-style: none;
+  float: right;
   padding-right: 20px;
 }
 
