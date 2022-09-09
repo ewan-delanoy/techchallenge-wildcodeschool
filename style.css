@@ -30,8 +30,11 @@ ul {
 }
 
 #nav ul {
-  padding-top: 13px;
   padding-left: 10px;
+}
+
+#nav ul > li:not(:first-child) {
+  padding-top: 13px;
 }
 
 .lileft .li {
@@ -41,8 +44,6 @@ ul {
 
 .lileft img {
   display: block;
-  width: 30px; /* here put your width */
-  height: 30px; /* here put your height */
 }
 
 #nav li {
@@ -174,5 +175,3 @@ textarea {
   color: #e6e6e6;
   transition: all ease 0.5s;
 }
-
-/* Styles for multiple caption overlays */
