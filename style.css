@@ -66,13 +66,13 @@ ul {
   background-size: 100%;
 }
 
-#family {
-  background-image: url("./images/bodiam-castle.jpg");
-  background-repeat: no-repeat;
+#main_for_assets {
+  background-color: #008000;
   float: left;
   width: 100%;
   height: 400px;
   background-size: 100%;
+  position: relative;
 }
 
 #sidebar {
@@ -174,4 +174,31 @@ textarea {
   background-color: rgba(0, 0, 0, 0.5);
   color: #e6e6e6;
   transition: all ease 0.5s;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  /*
+  margin-left: auto;
+  margin-right: auto;
+  */
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+td,
+th {
+  font-color: black;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #990000;
 }
