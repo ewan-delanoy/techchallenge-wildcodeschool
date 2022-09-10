@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Web Development Tech Challenge</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <!--Content goes here-->
+
+      <!-- Navigation Section-->
+      <div id="nav">
+        <ul>
+          <lileft>
+            <img
+              src="https://i.ibb.co/WVxqWc7/crown.png"
+              alt="crown"
+              border="0"
+            />
+          </lileft>
+          <li><a class="active" href="contact.html">Contact us</a></li>
+          <li><a href="royal_assets.html">Royal Assets</a></li>
+          <li><a href="royal_family.html">Royal Family</a></li>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </div>
+
+      <!-- Add this to a seperate page, e.g. royal-family.html
+			Images and text aligned next to each other -->
+
+      <div id="main">
+        <h1>Fill in the form below to contact the Royal Kingdom</h1>
+        <form>
+          <div>
+            <label>Name</label>
+            <input type="text" name="name" />
+          </div>
+          <div>
+            <label>Email</label>
+            <input type="email" name="email" />
+          </div>
+          <div>
+            <label>Message</label>
+            <textarea name="message"> </textarea>
+          </div>
+          <button
+            style="float: right;"
+            type="submit"
+            onclick="alert('Your message was sent ! We  will answer you in a few days.');"
+          >
+            Send
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

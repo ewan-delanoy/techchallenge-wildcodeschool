@@ -1,7 +1,7 @@
 body {
+  font-family: "Great Vibes";
   background: #666;
   color: white;
-  font-family: Helvetica;
 }
 
 a {
@@ -113,11 +113,18 @@ ul {
   */
 }
 
-input,
+input {
+  width: 100%;
+  padding: 5px;
+  height: 20px;
+  /* margin-bottom: 15px; */
+}
+
 textarea {
   width: 100%;
   padding: 5px;
-  margin-bottom: 15px;
+  height: 80px;
+  /* margin-bottom: 15px; */
 }
 
 /* The Container */
@@ -177,12 +184,8 @@ textarea {
 }
 
 table {
-  font-family: arial, sans-serif;
+  /* font-family: arial, sans-serif; */
   border-collapse: collapse;
-  /*
-  margin-left: auto;
-  margin-right: auto;
-  */
   margin: 0;
   position: absolute;
   top: 50%;
