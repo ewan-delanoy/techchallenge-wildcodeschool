@@ -13,9 +13,9 @@ ul {
   padding: 0;
 }
 
-.clr {
+/* .clr {
   clear: both;
-}
+} */
 
 #container {
   background: #333;
@@ -35,13 +35,6 @@ ul {
 
 #nav ul > li:not(:first-child) {
   padding-top: 13px;
-}
-
-.floatleft {
-  float: left;
-}
-.floatright {
-  float: right;
 }
 
 #nav li {
@@ -168,4 +161,15 @@ tr:nth-child(even) {
 
 .no_borders {
   border: 0;
+}
+
+.floatleft {
+  float: left;
+}
+.floatright {
+  float: right;
+}
+
+.centered {
+  text-align: center;
 }
