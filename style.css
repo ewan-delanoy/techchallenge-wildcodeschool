@@ -37,18 +37,15 @@ ul {
   padding-top: 13px;
 }
 
-.lileft .li {
-  list-style: none;
+.floatleft {
   float: left;
 }
-
-.lileft img {
-  display: block;
+.floatright {
+  float: right;
 }
 
 #nav li {
   list-style: none;
-  float: right;
   padding-right: 20px;
 }
 
@@ -73,44 +70,6 @@ ul {
   height: 400px;
   background-size: 100%;
   position: relative;
-}
-
-#sidebar {
-  float: right;
-  width: 30%;
-  background: #666;
-  margin-top: 20px;
-  padding: 10px;
-}
-
-#footer {
-  text-align: center;
-  padding: 10px;
-  background: #666;
-  width: 960px;
-  margin-top: 30 px auto;
-  overflow: hidden;
-}
-
-.services a {
-  background: #666;
-  padding: 10px;
-}
-
-/*
-.services ul {
-  padding-top:13px;
-  padding-left:10px;
-}
-*/
-.services li {
-  border-bottom: 2px #666 dashed;
-  padding-bottom: 20px;
-  /*
-  list-style:none;
-  float:left;
-  padding-right:20px;
-  */
 }
 
 input {
@@ -185,6 +144,7 @@ textarea {
 
 table {
   /* font-family: arial, sans-serif; */
+  font-size: 25px;
   border-collapse: collapse;
   margin: 0;
   position: absolute;
@@ -204,4 +164,8 @@ th {
 
 tr:nth-child(even) {
   background-color: #990000;
+}
+
+.no_borders {
+  border: 0;
 }
